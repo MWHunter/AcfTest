@@ -9,6 +9,9 @@ public final class AcfTest extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         PaperCommandManager commandManager = new PaperCommandManager(this);
+
+        commandManager.enableUnstableAPI("brigadier");
+
         commandManager.registerCommand(new ExampleCommand());
         commandManager.registerCommand(new NoArgsExample());
     }
