@@ -1,0 +1,4 @@
+name: AcfTest
+version: '${project.version}'
+main: me.defineoutside.acftest.AcfTest
+api-version: 1.18
